@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* SELETTORI TAG (font e colori florian style) */
+
+body {
+    font-family: system-ui, sans-serif;
+    background-color: #073b4c;
+    text-align: center;
+}
+
+h1 {
+    font-size: calc(1.5rem + 2vw);
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+
+/* SELETTORI CLASS (imito bootstrap senza usarlo) */
+
+
+/* creo un container "come" una row di bootstrap */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    max-width: calc(100px * 7);
+    margin: 0 auto;
+}
+
+
+/* box contenitore dei numeri del ciclo 1-100 */
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    background-color: #118ab2;
+    font-weight: 600;
+}
+
+
+/* classi utilities per il ciclo (colori florian style) */
+
+.box-fizz {
+    background-color: #06d6a0;
+}
+
+.box-buzz {
+    background-color: #ffd166;
+}
+
+.box-fizzbuzz {
+    background-color: #ef476f;
+}
